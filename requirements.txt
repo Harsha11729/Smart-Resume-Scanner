@@ -1,0 +1,10 @@
+streamlit
+pandas
+pdfplumber
+spacy
+scikit-learn
+matplotlib
+seaborn
+torch
+PyMySQL
+Pillow
