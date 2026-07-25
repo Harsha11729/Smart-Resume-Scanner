@@ -279,7 +279,7 @@ for alias, canonical_skill in skill_aliases.items():
 connection = None
 cursor = None
 try:
-    connection = pymysql.connect(host='localhost', user='root', password='Surya@143', db='cv') # <--- Update MySQL Password
+    connection = pymysql.connect(host='localhost', user='root', password=__Your_password__, db='cv') # <--- Update MySQL Password
     cursor = connection.cursor()
     DB_table_name = 'user_data'
     cursor.execute(f"""
